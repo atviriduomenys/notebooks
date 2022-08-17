@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "giscentras-nomenklatura"
+version = "0.1.0"
+description = ""
+authors = ["Mantas <sirexas@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.4.2"
+geopandas = "^0.10.2"
+matplotlib = "^3.5.2"
+lxml = "^4.9.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
