@@ -31,7 +31,7 @@ from sklearn.preprocessing import StandardScaler
 # https://data.gov.lt/dataset/gyventoju-patirtos-islaidos
 
 # %%
-islaidos=pd.read_csv("data/datasets/gov/vmi/gyventojų_patirtos_išlaidos/GyventojuIslaidos.csv")
+islaidos=pd.read_csv("data/datasets/gov/vmi/gyventoju_islaidos/GyventojuIslaidos.csv")
 
 # %% [markdown] tags=[]
 # # KLAUSIMAI
@@ -142,7 +142,7 @@ percentage(count_row_gd, count_row_visos)
 # Norėdami palyginti savivaldybes tarpusavyje, pirmiausia turime jas normalizuoti pagal gyventojų skaičių. Tam nusiskaitome duomenis iš gyventojų registro apie Lietuvos gyventojų amžių ir lytį pagal savivaldybes
 
 # %%
-rc = pd.read_csv("data/datasets/gov/rc/gyventojų_registro_duomenys/01_gr_open_amzius_lytis_pilietybes_sav_r1.csv")
+rc = pd.read_csv("data/datasets/gov/rc/gr/01_gr_open_amzius_lytis_pilietybes_sav_r1.csv")
 
 # %% [markdown]
 # Gyventojų registro (GR) duomenys apie Lietuvos Respublikos teritorijoje įregistruotus fizinius asmenis. GR duomenys apie Lietuvos gyventojų amžių ir lytį pagal savivaldybes. Duomenų geografinė imtis — visa šalies teritorija. Brandos lygis — III. Atnaujinimo dažnumas — kas 12 mėn. Duomenų formatas — CSV. Licencija — CC BY 4.0. Atvėrimo data — 2022-01-14
